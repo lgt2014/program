@@ -5,8 +5,10 @@ version = '1.0'
 
 repositories {
     mavenCentral()
+    maven { url 'http://maven.oschina.net/content/groups/public/' }
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.apache.struts',name:'struts2-core',version:'2.3.24'
 }
